@@ -433,7 +433,8 @@ address {
 .portfolio-link:focus .portfolio-overlay,
 .portfolio-item:hover .portfolio-overlay,
 .portfolio-item:focus-within .portfolio-overlay {
-  transform: translateY(0);
+  /* виправлено: 0 -> 0% */
+  transform: translateY(0%);
 }
 
 .portfolio-card {
