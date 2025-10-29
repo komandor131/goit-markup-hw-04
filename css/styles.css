@@ -12,6 +12,7 @@
   --grey: rgba(46, 47, 66, 0.7);
   --white: #fff;
   --dairy: #fcfcfc;
+
 }
 
 /* base styles */
@@ -363,7 +364,7 @@ address {
   color: var(--slate);
 }
 
-/* portfolio - ВИПРАВЛЕНО ЗА ВИМОГАМИ */
+/* portfolio */
 
 .portfolio-section {
   padding: 120px 0;
@@ -432,7 +433,7 @@ address {
 .portfolio-link:focus .portfolio-overlay,
 .portfolio-item:hover .portfolio-overlay,
 .portfolio-item:focus-within .portfolio-overlay {
-  transform: translateY(0%);
+  transform: translateY(0);
 }
 
 .portfolio-card {
@@ -455,6 +456,7 @@ address {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
+
 
 /* footer */
 
